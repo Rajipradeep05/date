@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #151B54;
+    width: 100%;
+    height:auto;
+}
+.formcontainer{
+    background-color: #033E3E;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 30px;
+}
+.loginform{
+    background-color: #1ce4bf;
+    width: 20%;
+    height: auto;
+    padding: 20px;
+}
+form{
+    background-color:#ff00ff ;
+    width: 100%;
+    height: auto;
+}
+
+form {
+    background-color:#fff;
+    width: 80%;
+    position: relative;
+    margin: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+} 
+.from-input{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.from-input label{
+    padding-left: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.from-input input{
+    padding-left: 2rem;
+}
